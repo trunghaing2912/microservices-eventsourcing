@@ -4,7 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="" />
+    <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/data/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/data/BookRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/config/AxonConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/resources/application.properties" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,13 +22,24 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiPersistence"><![CDATA[{}]]></component>
+  <component name="KubernetesApiProvider"><![CDATA[{
+  "isMigrated": true
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 8
 }</component>
   <component name="ProjectId" id="2hNTa0zgCRCqb0hA4v4LLhMY2Ee" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,6 +54,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "Spring Boot.BookserviceApplication.executor": "Run",
     "Spring Boot.DiscoveryserverApplication.executor": "Run",
+    "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/Admin/Desktop/Microservices - Udemy/bookservice",
     "node.js.detected.package.eslint": "true",
@@ -86,7 +106,7 @@
       <workItem from="1717433962121" duration="242000" />
       <workItem from="1717434217660" duration="29000" />
       <workItem from="1717434357897" duration="66000" />
-      <workItem from="1717434776273" duration="2345000" />
+      <workItem from="1717434776273" duration="5815000" />
     </task>
     <servers />
   </component>
