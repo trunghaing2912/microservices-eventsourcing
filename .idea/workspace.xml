@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/aggregate/EmployeeAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/CreateEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/DeleteEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/UpdateEmployeeCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/controller/EmployeeCommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/data/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/data/EmployeeRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeDeletedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeUpdatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/model/EmployeeRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/controller/EmployeeQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/model/EmployeeResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/projection/EmployeeProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/queries/GetAllEmployeesQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/queries/GetEmployeesQuery.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/EmployeeserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/EmployeeserviceApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/employeeservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employeeservice/src/main/resources/application.properties" afterDir="false" />
-    </list>
+    <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +52,7 @@
     "Spring Boot.EmployeeserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hai.nguyentrung/Desktop/microservices-eventsourcing/employeeservice/src/main/java/com/tanthanh/employeeservice",
+    "last_opened_file_path": "C:/Users/hai.nguyentrung/Desktop/microservices-eventsourcing/apigateway",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -106,6 +85,14 @@
     </option>
   </component>
   <component name="RunManager" selected="Spring Boot.EmployeeserviceApplication">
+    <configuration name="ApigatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="apigateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tanthanh.apigateway.ApigatewayApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BookserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="bookservice" />
@@ -145,7 +132,7 @@
       <workItem from="1717434357897" duration="66000" />
       <workItem from="1717434776273" duration="5815000" />
       <workItem from="1717473682764" duration="12973000" />
-      <workItem from="1717551382872" duration="12888000" />
+      <workItem from="1717551382872" duration="13696000" />
     </task>
     <servers />
   </component>
