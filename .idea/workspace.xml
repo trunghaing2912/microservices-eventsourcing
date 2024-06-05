@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/aggregate/BookAggregate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/command/CreateBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/command/DeleteBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/command/UpdateBookCommand.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/controller/BookCommandController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/events/BookCreatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/events/BookDeletedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/events/BookEventsHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/events/BookUpdatedEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/model/BookRequestModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/query/api/controller/BookQueryController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/query/api/model/BookResponseModel.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/query/api/projection/BookProjection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/query/api/queries/GetAllBooksQuery.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/query/api/queries/GetBooksQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/data/BookRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/bookservice/src/main/java/com/tanthanh/bookservice/command/api/data/BookRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,6 +82,14 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="EmployeeserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
+      <module name="employeeservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tanthanh.employeeservice.EmployeeserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -112,7 +104,8 @@
       <workItem from="1717434217660" duration="29000" />
       <workItem from="1717434357897" duration="66000" />
       <workItem from="1717434776273" duration="5815000" />
-      <workItem from="1717473682764" duration="12722000" />
+      <workItem from="1717473682764" duration="12973000" />
+      <workItem from="1717551382872" duration="1310000" />
     </task>
     <servers />
   </component>
