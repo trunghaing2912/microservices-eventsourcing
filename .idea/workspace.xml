@@ -5,7 +5,26 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2213c31e-b802-4641-b7e6-44230661ccfa" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/aggregate/EmployeeAggregate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/CreateEmployeeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/DeleteEmployeeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/command/UpdateEmployeeCommand.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/controller/EmployeeCommandController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/data/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/data/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeDeletedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeEventHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/events/EmployeeUpdatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/command/api/model/EmployeeRequestModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/controller/EmployeeQueryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/model/EmployeeResponseModel.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/projection/EmployeeProjection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/queries/GetAllEmployeesQuery.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/query/api/queries/GetEmployeesQuery.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/EmployeeserviceApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/employeeservice/src/main/java/com/tanthanh/employeeservice/EmployeeserviceApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/employeeservice/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/employeeservice/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,31 +60,52 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;Spring Boot.BookserviceApplication.executor&quot;: &quot;Run&quot;,
-    &quot;Spring Boot.DiscoveryserverApplication.executor&quot;: &quot;Run&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Admin/Desktop/Microservices - Udemy/bookservice&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RequestMappingsPanelOrder0": "0",
+    "RequestMappingsPanelOrder1": "1",
+    "RequestMappingsPanelWidth0": "75",
+    "RequestMappingsPanelWidth1": "75",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "Spring Boot.BookserviceApplication.executor": "Run",
+    "Spring Boot.DiscoveryserverApplication.executor": "Run",
+    "Spring Boot.EmployeeserviceApplication.executor": "Run",
+    "git-widget-placeholder": "master",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/hai.nguyentrung/Desktop/microservices-eventsourcing/employeeservice/src/main/java/com/tanthanh/employeeservice",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "run.configurations.included.in.services": "true",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="ReactorSettings">
     <option name="notificationShown" value="true" />
   </component>
-  <component name="RunManager" selected="Spring Boot.BookserviceApplication">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hai.nguyentrung\Desktop\microservices-eventsourcing\employeeservice\src\main\java\com\tanthanh\employeeservice" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tanthanh.employeeservice.command.api.events" />
+      <recent name="com.tanthanh.employeeservice.command.api.data" />
+      <recent name="com.tanthanh.employeeservice.command.api.command" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="MicronautRunConfigurationType" />
+        <option value="QuarkusRunConfigurationType" />
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.EmployeeserviceApplication">
     <configuration name="BookserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="bookservice" />
@@ -105,7 +145,7 @@
       <workItem from="1717434357897" duration="66000" />
       <workItem from="1717434776273" duration="5815000" />
       <workItem from="1717473682764" duration="12973000" />
-      <workItem from="1717551382872" duration="1310000" />
+      <workItem from="1717551382872" duration="12888000" />
     </task>
     <servers />
   </component>
