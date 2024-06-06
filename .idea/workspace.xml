@@ -9,14 +9,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/java/com/tanthanh/apigateway/ApigatewayApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/main/resources/application.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/apigateway/src/test/java/com/tanthanh/apigateway/ApigatewayApplicationTests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +59,7 @@
     "Spring Boot.EmployeeserviceApplication.executor": "Run",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/hai.nguyentrung/Desktop/microservices-eventsourcing/api-gateway",
+    "last_opened_file_path": "C:/Users/hai.nguyentrung/Desktop/microservices-eventsourcing/notificationservice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -131,6 +123,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NotificationserviceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="notificationservice" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.tanthanh.notificationservice.NotificationserviceApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -147,7 +146,7 @@
       <workItem from="1717434776273" duration="5815000" />
       <workItem from="1717473682764" duration="12973000" />
       <workItem from="1717551382872" duration="13886000" />
-      <workItem from="1717638774137" duration="4427000" />
+      <workItem from="1717638774137" duration="6704000" />
     </task>
     <servers />
   </component>
