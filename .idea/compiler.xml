@@ -8,6 +8,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="api-gateway" />
+        <module name="borrowingservice" />
         <module name="employeeservice" />
         <module name="discoveryserver" />
         <module name="bookservice" />
@@ -23,6 +24,7 @@
       <module name="api-gateway" options="-parameters" />
       <module name="apigateway" options="-parameters" />
       <module name="bookservice" options="-parameters" />
+      <module name="borrowingservice" options="-parameters" />
       <module name="discoveryserver" options="-parameters" />
       <module name="employeeservice" options="-parameters" />
       <module name="notificationservice" options="-parameters" />
